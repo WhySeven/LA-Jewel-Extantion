@@ -1,0 +1,39 @@
+.table{
+  width: 150px;
+
+    padding: 10px;
+    background: #d0d0d0;
+    display:flex;
+    flex-direction: column;
+    background: rgb(0,14,255);
+    background: linear-gradient(90deg, rgba(0,14,255,1) 0%, rgba(0,109,131,1) 100%);
+}
+.setName {
+    border: 1px solid #000000;
+    display: inline-block;
+}
+.gemsOn {
+    border: 2px solid #ff0000;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+.tableRow{
+  display: table-row-group;
+  height:auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 5px solid #aaaa00;
+  color: #ffff;
+  background: #a000a0;
+}
+
+.clock_style{
+  display:flex;
+  width: auto;
+  align-self: center;
+  color: #ffff;
+  background: #000000;
+}
